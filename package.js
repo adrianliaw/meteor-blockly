@@ -11,6 +11,7 @@ Package.onUse(function (api) {
   api.addFiles("lib/blockly/blockly_compressed.js", "client", {bare: true});
   api.addFiles([
     "lib/blockly/blocks_compressed.js",
+    "lib/blockly/javascript_compressed.js",
     "lib/blockly/msg/messages.js"
   ], "client");
   api.export("Blockly");
