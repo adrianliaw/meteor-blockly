@@ -16,6 +16,10 @@ Documentation
 -------------
 See [Blockly Project Page](https://developers.google.com/blockly)
 
+Developing
+----------
+1. Clone the repo, make sure to use --recursive `git clone --recursive https://github.com/adrianliaw/meteor-blockly`
+2. Link the package to your local testing meteor app `ln -s {/path/to/this}/blockly {/path/to/testing/app}/packages/blockly:blockly`
 
 Roadmap
 -------
