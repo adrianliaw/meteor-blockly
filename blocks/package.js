@@ -1,7 +1,7 @@
 Package.describe({
   name: "blockly:blocks",
   version: "0.0.0",
-  summary: "Blocks for blockly:blockly",
+  summary: "Core Blocks for blockly:blockly",
   git: "https://github.com/adrianliaw/meteor-blockly",
   documentation: "README.md"
 });
