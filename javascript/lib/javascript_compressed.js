@@ -1,0 +1,1 @@
+../../lib/blockly/javascript_compressed.js
