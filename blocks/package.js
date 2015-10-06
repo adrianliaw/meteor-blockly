@@ -9,5 +9,6 @@ Package.describe({
 Package.onUse(function (api) {
   api.versionsFrom("1.2.0.1");
   api.use("blockly:blockly", "client");
+  api.imply("blockly:blockly");
   api.addFiles("lib/blocks_compressed.js", "client");
 });

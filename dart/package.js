@@ -1,7 +1,7 @@
 Package.describe({
-  name: "blockly:javascript",
+  name: "blockly:dart",
   version: "0.0.0",
-  summary: "Javascript Code Generator for blockly:blockly",
+  summary: "Dart Code Generator for blockly:blockly",
   git: "https://github.com/adrianliaw/meteor-blockly",
   documentation: "README.md"
 });
@@ -10,5 +10,5 @@ Package.onUse(function (api) {
   api.versionsFrom("1.2.0.1");
   api.use(["blockly:blockly", "blockly:blocks"], "client");
   api.imply("blockly:blockly");
-  api.addFiles("lib/javascript_compressed.js", "client");
+  api.addFiles("lib/dart_compressed.js", "client");
 });

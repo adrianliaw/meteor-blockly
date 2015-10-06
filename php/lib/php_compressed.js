@@ -1,0 +1,1 @@
+../../lib/blockly/php_compressed.js
