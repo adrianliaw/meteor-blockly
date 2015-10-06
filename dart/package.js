@@ -8,7 +8,7 @@ Package.describe({
 
 Package.onUse(function (api) {
   api.versionsFrom("1.2.0.1");
-  api.use(["blockly:blockly", "blockly:blocks"], "client");
+  api.use(["blockly:blockly@0.0.0", "blockly:blocks@0.0.0"], "client");
   api.imply("blockly:blockly");
   api.addFiles("lib/dart_compressed.js", "client");
 });
